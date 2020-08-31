@@ -1,0 +1,193 @@
+body{
+    background:whitesmoke ;
+    
+
+}
+.head p,ADdress
+{
+    margin-right: 10px;
+    text-align: right;
+}
+.container
+{
+/* border: 1px solid black; */
+height: fit-content;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+/* position: absolute; */
+width: 1330px;
+height: 400px;
+padding: 5px;
+}
+.customer
+{
+    position:relative ;
+        /* background: green; */
+    width: 49.8%;
+    height: 400px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.object
+{
+    position: relative;
+    border-radius: 5px;
+    /* background: blue; */
+    width: 49.8%;
+    height: 400px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reciept
+{
+    position: relative;
+    top: 2%;
+    /* left: 30%; */
+    float: right;
+    background:rgba(199, 207, 78, 0.678) ;
+    width: 49.8%;
+    height: 850px;
+    border: 1px solid ;
+    /* display: inline-block; */
+    
+    
+}
+.bill
+{
+    position: relative;
+    top:2%;
+    /* left: 30%; */
+    float: left;
+    background:rgba(75, 53, 175, 0.041) ;
+    width:49.8%;
+    height: 500px;
+    /* display: inline-block; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+input[type=text],input[type=email],select
+{
+ display: inline-block;
+ /* margin-left: 00px; */
+ padding: 10px ;
+ margin-bottom: 5px;
+ 
+}
+label
+{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.label{
+    float: left;
+    /* background: blanchedalmond; */
+    width: 40%;
+    padding: 10px;
+}
+.registerbtn
+{
+    display: inline-block;
+    /* float:right; */
+    width: 90px;
+    padding: 10px;
+    
+}
+.btn{
+    position: absolute;
+    background:rgb(51, 50, 50);
+    left: 40%;
+margin-top:30px ;
+}
+.btn1{
+    position: absolute;
+    background:rgb(51, 50, 50);
+    left: 58%;
+margin-top:30px ;
+}
+h1
+{
+    text-align: center;
+}
+#customerdetail
+{
+    border: 1px solid white;
+    background: white;
+    width: 99.7%;
+    height: 20%;
+
+}
+#customerdetail .label,#vehicle .label
+{
+
+    float: left;
+    width: 50%;
+    /* background: blue; */
+    padding: 5px;
+
+
+}
+p
+{
+    margin-top: 0px;
+    font-weight: 900;
+    font-size:large ;
+    /* padding: 9px; */
+}
+ ul{
+    text-decoration:none ;
+    padding: 20px;
+    list-style: none;
+}
+li{
+    float: left;
+    margin: 40px;
+    font-size: large;
+    font-weight: 800;
+}
+
+#billprice .label
+{
+    position: relative;
+    float: left;
+    width: 50%;
+    background: rgba(235, 231, 11, 0.972);
+    padding: 5px;
+    margin: 5px;
+    color: rgb(245, 10, 10);
+}
+#billprice #p1{
+/* background: rgb(62, 161, 67); */
+ float: right; 
+ width:20%;
+
+}
+#billdetail
+{
+    margin-left: 110px;
+}
+#billdetail p{
+    float: left;
+    /* margin:30px; */
+    /* padding: 35px; */
+    width: 25%;
+}
+.billbtn2
+{
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    width: 20%;
+}
+.billbtn2 .registerbtn
+{
+width: 150px;
+font-weight: 522;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

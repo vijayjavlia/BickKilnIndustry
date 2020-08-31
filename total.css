@@ -1,0 +1,22 @@
+.chart
+{
+    border: 1px solid blue;
+    width: 900px;
+    height: 500px;
+}
+.table
+{
+    border: 1px solid rgb(255, 0, 0);
+    width: 900px;
+    height: 500px; 
+}
+section
+{
+    position: absolute;
+    top:70%;
+    left: 20%;
+}
+.container
+{
+    left: 40%;
+}

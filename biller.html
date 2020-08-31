@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biller</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Detail for Customer Info -->
+<div class="customer">
+<h1>Cutomer Detail</h1>
+<p id="error"></p>
+<form action=" index.html" method="post">
+  
+<div class="label"><label>Name :</label></div>
+<input type="text" name="name" id="name"><br>
+<div class="label"><label for="email">Email Id :</label></div>
+<input type="email" name="email" id="eamil"><br>
+<div class="label"><label for="phone" >Phone No. :</label></div>
+<input type="text" name="number" id=""><br>
+<div class="label"><label for="Age">Age :</label></div>
+<input type="text" name="age" id=""><br>
+<div class="label"><label for="address">Address :</label></div>
+<textarea name="address" id="" rows="4" cols="40"></textarea><br>
+<div class="btn"><input type="submit" value="Add" class="registerbtn"></div>
+</form>
+</div>
+    <!-- Deatil fill about Object Quantity -->
+<div class="object">
+    <h1>Shiping Detail</h1>
+    <p id="error"></p>
+    <form action=" index.html" method="post">
+      
+    <div class="label"><label>Driver Name :</label></div>
+    <input type="text" name="name" id="name"><br>
+    <div class="label"><label for="vtype">Vehical type :</label></div>
+    <input type="text" name="vtype" id="vtype"><br>
+    <div class="label"><label for="phone" >Vehical  No. :</label></div>
+    <input type="text" name="vnumber" id="vnumber"><br>
+    <div class="label"><label for="quantity">Quantity :</label></div>
+    <input type="text" name="quantity" id="quantity"><br>
+    <div class="label"><label>Object type :</label></div>
+    
+    <select >
+        <option value="brick First class">Brick First class</option>
+        <option value="brick second class">Brick Second class</option>
+        <option value="brick third  class">Brick Third class</option>
+        <option value="tile first class">Tile First Class</option>
+        <option value="tile second class">Tile First Class</option>
+        <option value="tile third class">Tile First Class</option>
+    </select>
+    <br>
+    <div class="btn"><input type="submit" value="Add" class="registerbtn"></div>
+    </form>
+</div>
+<!-- Manual Bill Ready to Payment  -->
+<div class="bill"> 
+    <h1>Bill</h1>
+    <p id="error"></p>
+    <div class="label"><label>Object type :</label></div>
+    <input type="text" name="name" id="name">
+    <div class="label"><label for="quantity">Quantity :</label></div>
+    <input type="text" name="quantity" id="quantity"><br>
+    <div class="label"><label for="price">Price/1k :</label></div>
+    <input type="text" name="price" id="price"><br>
+    <div class="label"><label for="amount" >Amount :</label></div>
+    <input type="text" name="amount" id="amount"><br>
+    <div class="label"><label for="delvery" >Delvery Charges:</label></div>
+    <input type="text" name="delvery" id="delvery"><br>
+    <div class="label"><label for="GST" >GST:</label></div>
+    <input type="text" name="GST" id="GST"><br>
+    <div class="label"><label for="Total" >Total :</label></div>
+    <input type="text" name="Total" id="Total"><br>
+    <div class="btn"><input type="submit" value="Save" class="registerbtn"></div>
+    <div class="btn1"><input type="submit" value="Update" class="registerbtn"></div>
+
+
+    
+</div>
+<!-- Below Deatails are about to Recipt Componennts  -->
+<div class="reciept">
+    <h1>Invoice</h1>
+    <div class="head">  
+    <p>vk infotech Pvt.Ltd</p>
+    <p id="gst">Gst No.:GST9888495960</p>
+    <p id="contact">Contact:98884-95960</p>
+    <address>vk infotech Pvt.Ltd,moga road Ajitwal</address>
+    </div>
+    <hr>
+    <!-- Customer details for delevery adress etc -->
+    <div id="customerdetail">
+        <div class="label"><label for="">Name</label></div>
+        <p id="name">vijay kumar</p>
+        <div class="label"><label for="">Phone Number</label></div>
+        <p id="number">9888495960</p>
+        <div class="label"><label for="">Address</label></div>
+        <p id="address">Moga Road Ajitwal</p>
+    </div>
+<!-- vehicle details load and driver info -->
+    <div id="vehicle">
+        <div class="label"><label for="">DiverName</label></div>
+        <p id="dname">Vijay Kumar</p>
+        <div class="label"><label for="">Vehicle Number </label></div>
+        <p id="vnumber">9888495960</p>
+        <div class="label"><label for="">Vehicle Type</label></div>
+        <p id="vtype">truck</p>
+    </div>
+<!-- Bill Details Below -->
+    <hr>
+    <div id="bill">
+        <div><ul>
+    <li>   
+            Object Type
+    </li>
+    <li>
+       Quantity
+    </li>
+    <li>
+        Price/1k
+    </li>
+    <li>   
+        Amount
+    </li>
+</ul>
+</div>
+<!-- Details About BillPrice -->
+<div id="billdetail">
+    <p id="otype"> firstclass</p>
+        <p id="qty">50000</p>
+        <p id="price"> 5500</p>
+        <p id="amount">250000</p>
+</div>
+<!-- Details About billprice -->
+<div id="billprice">
+    <div class="label"><label for="">GST</label></div>
+<div id="p1"><p id="gst">250</p></div>
+
+<div class="label"><label for="">Total Amount</label></div>
+<div id="p1"><p id="total">250250</p></div> 
+</div>
+</div>
+<div class="billbtn2"><input type="submit" value="Save & Print" class="registerbtn"></div>
+
+</div>
+</div>
+</body>
+</html>

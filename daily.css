@@ -1,0 +1,36 @@
+
+.image{
+    float: right;
+    position: absolute;
+    visibility:visible;
+    top: 18%;
+    left: 75%;
+    
+}
+
+.search{
+    background: rgb(233, 218, 218);
+    padding:10px;
+}
+#search
+{
+    width: 80px;
+    height: 30px;
+    background: rgb(173, 186, 237);
+    outline: none;
+    border: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 2px;  
+}
+#search:hover
+{
+    background: rgb(130, 240, 130);
+}
+#search:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+
+  
